@@ -1,0 +1,28 @@
+.tank-container {
+  margin: 10px;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .tank {
+    position: relative;
+    width: 80px;
+    border: 1px solid black;
+    height: 180px;
+    margin: 10px;
+
+    .tank-fill {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+
+  .refill-button {
+    text-transform: capitalize;
+    margin: 0;
+  }
+}

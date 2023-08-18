@@ -1,0 +1,19 @@
+.coffee-machine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+    background-image: url("https://thumbs.dreamstime.com/b/brushed-silver-metallic-background-6478282.jpg");
+    padding: 30px;
+    border-radius: 10px;
+    
+    .coffee-machine-tanks-contanier {
+        display: flex;
+    }
+
+    .coffee-machine-controller-contanier {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+}
