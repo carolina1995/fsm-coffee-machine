@@ -19,7 +19,7 @@ const CoffeeMachine = () => {
     getInitialState().then(result => {
       setTransition(result.initialState);
     }).catch(err => console.error(err));
-  }, []);
+  }, [setTransition]);
 
   useEffect(() => {
     // show warning when water or beans level is low 

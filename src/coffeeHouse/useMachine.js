@@ -32,12 +32,6 @@ const machine = createMachine({
    },
    SERVE: {
       transitions: {
-         OFF: {
-            target: "OFF",
-            action() {
-               console.log('transition action for "off" in "serve" state');
-            },
-         },
          ON: {
             target: "ON",
             action() {

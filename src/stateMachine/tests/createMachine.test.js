@@ -68,11 +68,6 @@ describe('Coffee Machine Reducer', () => {
       expect(newState).toBe("OFF");
    });
 
-   test('should transition from SERVE to OFF', () => {
-      const newState = machine.reducer("SERVE", "OFF");
-      expect(newState).toBe("OFF");
-   });
-
    test('should transition from SERVE to ON', () => {
       const newState = machine.reducer("SERVE", "ON");
       expect(newState).toBe("ON");

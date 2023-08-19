@@ -11,11 +11,13 @@
    background-color: rgb(0 0 0 / 70%);
    border-radius: 10px;
    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-   .display-container{
+
+   .display-container {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
    }
+
    h3 {
       text-align: center;
       border-bottom: 1px solid #555;
@@ -38,20 +40,20 @@
       font-weight: bold;
    }
 
-   .done-button{
+   .done-button {
       background: darkseagreen
    }
 
    @keyframes blinker {
       50% {
-        opacity: 0;
+         opacity: 0;
       }
-    }
+   }
 
-    .display-footer {
+   .display-footer {
       flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
-    }
+   }
 }
