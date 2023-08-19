@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fsm-coffee-machine/static/css/main.54abfb36.css",
+    "main.js": "/fsm-coffee-machine/static/js/main.42896769.js",
+    "static/js/787.0f633116.chunk.js": "/fsm-coffee-machine/static/js/787.0f633116.chunk.js",
+    "index.html": "/fsm-coffee-machine/index.html",
+    "main.54abfb36.css.map": "/fsm-coffee-machine/static/css/main.54abfb36.css.map",
+    "main.42896769.js.map": "/fsm-coffee-machine/static/js/main.42896769.js.map",
+    "787.0f633116.chunk.js.map": "/fsm-coffee-machine/static/js/787.0f633116.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54abfb36.css",
+    "static/js/main.42896769.js"
+  ]
+}
